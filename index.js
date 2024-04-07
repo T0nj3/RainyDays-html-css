@@ -21,6 +21,23 @@ function toggleDescription() {
     }
 }
 
-
+function initMap() {
+    
+    var noroffOslo = {
+        lat: 59.9126,
+        lng: 10.7496
+    };
+    
+    var map = new google.maps.Map(
+        document.getElementById('map'), {
+            zoom: 15,
+            center: noroffOslo
+        });
+ 
+    var marker = new google.maps.Marker({
+        position: noroffOslo,
+        map: map
+    });
+}
 
 
