@@ -131,6 +131,10 @@ main {
     }
 }
 
+@media screen and (max-width: 450px) {
+
+}
+
 .wrapper {
     display: flex;
     justify-content: center;
@@ -175,6 +179,22 @@ main {
     .product-box {
         margin-right: 0;
         margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .product-dets {
+        text-align: center;
+    }
+
+    .product-dets h2 {
+        font-size: 20px;
+        
+    } 
+
+    .product-dets button {
+        width: 200px;
     }
 }
 
@@ -560,6 +580,25 @@ header {
 
 .image-container:hover .feature-img {
     filter: blur(5px); 
+}
+
+@media (max-width: 1300px) {
+    .overlay-text {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 800px) {
+    .overlay-text {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .overlay-text {
+        padding: 0px;
+        font-size: 10px;
+    }
 }
 
 .image-container:hover .overlay-text {
