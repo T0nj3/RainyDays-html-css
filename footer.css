@@ -1,0 +1,49 @@
+
+
+.footer-elements {
+   display: flex;
+   flex-direction: row;
+   gap: 300px;
+   justify-content: center;
+   background-color: black;
+   color: white;
+   padding-bottom: 50px;
+   font-size: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.left a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.right i {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.left p,
+.middle p,
+.right p {
+    cursor: pointer;
+}
+
+.left p:hover {
+    color: lightblue;
+}
+
+.middle p:hover {
+    color: lightblue;
+}
+
+@media screen and (max-width: 900px) {
+    .footer-elements {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
