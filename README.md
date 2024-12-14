@@ -1,3 +1,5 @@
+![Project Image](/Images/headerlogo.png)
+
 # RainyDays - Cross-Course Project
 
 This project, RainyDays, is a front-end website created as part of the Cross-Course Project for the first year of front-end development studies. The website is designed to promote and sell high-quality rain jackets, showcasing a professional layout using only HTML and CSS.
