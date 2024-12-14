@@ -42,7 +42,6 @@ RainyDays is a fully responsive website created to demonstrate foundational fron
 	1.	Clone the repository:
     git clone https://github.com/T0nj3/RainyDays-html-css
 
-    Live Demo
 
 ## RainyDays Live Demo
 https://rainydays-t0nj3.netlify.app/
